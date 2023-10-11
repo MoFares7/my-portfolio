@@ -53,6 +53,25 @@ const Education = () => {
                                                 management approaches.
                                         </p>
                                 </motion.div>
+                                <motion.div
+                                        className="mx-auto relative bg-yellow  max-w-[400px] h-[400px] flex flex-col justify-center p-16 mt-28
+            before:absolute before:top-[-120px] before:-ml-[125px] before:left-1/2 before:content-person12"
+                                        initial="hidden"
+                                        whileInView="visible"
+                                        viewport={{ once: true, amount: 0.5 }}
+                                        transition={{ delay: 0.2, duration: 0.6 }}
+                                        variants={{
+                                                hidden: { opacity: 0, scale: 0.8 },
+                                                visible: { opacity: 1, scale: 1 },
+                                        }}
+                                >
+                                        <center>
+                                                <p className="font-playfair text-xl font-bold ">Ranked in 10 st in My Country in High School</p>
+                                        </center>
+                                        <p className="  text-center text-xl">
+                                                Scored 95.65%
+                                        </p>
+                                </motion.div>
 
                                 <motion.div
                                         className="mx-auto relative bg-red max-w-[400px] h-[400px] flex flex-col justify-end p-16 mt-48
@@ -82,24 +101,7 @@ const Education = () => {
                                         </p>
                                 </motion.div>
 
-                                <motion.div
-                                        className="mx-auto relative bg-yellow max-w-[400px] h-[] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-130px] before:-ml-[125px] before:left-1/2 before:content-person12"
-                                        initial="hidden"
-                                        whileInView="visible"
-                                        viewport={{ once: true, amount: 0.5 }}
-                                        transition={{ delay: 0.4, duration: 0.6 }}
-                                        variants={{
-                                                hidden: { opacity: 0, scale: 0.8 },
-                                                visible: { opacity: 1, scale: 1 },
-                                        }}
-                                >
-                                        <center>
-                                                <p className="font-playfair text-xl font-bold ">Ranked in 1st in Country in High School</p>
-                                        </center>   <p className="text-center text-xl">
-                                                Scored 95.65%
-                                        </p>
-                                </motion.div>
+
                         </div>
 
                 </section>
