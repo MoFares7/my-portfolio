@@ -24,7 +24,7 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            Passionate to learn and have the spirit of dealing with the team
+            Passionate to learn and I have the spirit of dealing with the team
           </p>
         </motion.div>
 

@@ -19,11 +19,11 @@ const SocialMediaIcons = () => {
       </a>
       <a
         className="hover:opacity-50 transition duration-500"
-        href="https://www.facebook.com/Mo.Fares4/"
+        href="https://t.me/M_O_F_A_R_E_S"
         target="_blank"
         rel="noreferrer"
       >
-        <img alt="facebook-link" src="../assets/facebook.png" />
+        <img alt="telegram-link" src="../assets/telegram.png" />
       </a>
       <a
         className="hover:opacity-50 transition duration-500"

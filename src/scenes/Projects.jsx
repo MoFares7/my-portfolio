@@ -15,7 +15,7 @@ const projectVariant = {
   visible: { opacity: 1, scale: 1 },
 };
 
-const Project = ({ title }) => {
+const Project = ({ title, desc, img }) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
   const projectTitle = title.split(" ").join("-").toLowerCase();
@@ -25,11 +25,10 @@ const Project = ({ title }) => {
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
         <p className="mt-7">
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla
-          porttitor accumsan tincidunt.
+          {desc}
         </p>
       </div>
-      <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
+      <img src={img} alt={projectTitle} />
     </motion.div>
   );
 };
@@ -80,17 +79,44 @@ const Projects = () => {
           >
             BEAUTIFUL USER INTERFACES
           </div>
-          <Project title="Project 1" />
-          <Project title="Project 2" />
+          <Project
+            title={"Prime Shippa System"}
+            desc={"ttt"}
+            img={"../assets/project-1.jpeg"}
+          />
+          <Project
+            title={"Prime Shippa System"}
+            desc={"ttt"}
+            img={"../assets/project-1.jpeg"}
+          />  
 
           {/* ROW 2 */}
-          <Project title="Project 3" />
-          <Project title="Project 4" />
-          <Project title="Project 5" />
+          <Project
+            title={"Prime Shippa System"}
+            desc={"ttt"}
+            img={"../assets/project-1.jpeg"}
+          />  
+          <Project
+            title={"Prime Shippa System"}
+            desc={"ttt"}
+            img={"../assets/project-1.jpeg"}
+          />
+          <Project
+            title={"Prime Shippa System"}
+            desc={"ttt"}
+            img={"../assets/project-1.jpeg"}
+          />
 
           {/* ROW 3 */}
-          <Project title="Project 6" />
-          <Project title="Project 7" />
+          <Project
+            title={"Prime Shippa System"}
+            desc={"ttt"}
+            img={"../assets/project-1.jpeg"}
+          /> <Project
+            title={"Prime Shippa System"}
+            desc={"ttt"}
+            img={"../assets/project-1.jpeg"}
+          />
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
