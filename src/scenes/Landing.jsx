@@ -54,7 +54,7 @@ const Landing = ({ setSelectedPage }) => {
           </span> */}
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            software engineer with hands-on
+            Software Engineer with hands-on
             experience more two years, including
             performance, functional, integration,
             system, and user acceptance.</p>
